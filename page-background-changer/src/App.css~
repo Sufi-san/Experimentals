@@ -1,0 +1,45 @@
+body{
+	transition: background-color .7s;
+	align-items: left;
+	padding: 0px;
+}
+
+.palette-style {
+	position: absolute;
+	display: grid;
+	top: 3%;
+	bottom: 3%;
+	height: 91%;
+	width: 10%;
+	padding: 1% 1%;
+	grid-template-columns: 90%;
+	justify-content: center;
+	row-gap: 2%;
+	background-color: rgba(50, 50, 50, .7);
+}
+
+.btn-style { 
+	display: block;
+	font-size: 1em;
+	background-color: #2e2e2e;
+	text-align: center;
+	border: 1px solid #f2f2f2;
+	border-radius: 48%;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .26s;
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px){
+
+  .palette-style {
+  	width: 20%;
+  }
+
+  .btn-style {
+  }
+}
+
+.btn-style:hover {
+	opacity: 0.6;
+}
