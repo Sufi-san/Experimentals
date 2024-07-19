@@ -8,9 +8,9 @@ function App() {
   )
 }
 
-function Palette() {
+const colors = ["red", "green", "yellow", "olive", "grey", "pink", "purple", "lavender", "white", "black"];
 
-	const colors = ["red", "green", "yellow", "olive", "grey", "pink", "purple", "lavender", "white", "black"];
+function Palette() {
 	
 	const displayButtons = colors.map(color => 
 			<ColorButton color={color}/>

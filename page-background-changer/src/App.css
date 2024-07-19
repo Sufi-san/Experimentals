@@ -1,6 +1,5 @@
 body{
-	transition: background-color .7s;
-	align-items: left;
+	transition: background-color .5s;
 	padding: 0px;
 }
 
@@ -19,7 +18,6 @@ body{
 }
 
 .btn-style { 
-	display: block;
 	font-size: 1em;
 	background-color: #2e2e2e;
 	text-align: center;
@@ -38,5 +36,5 @@ body{
 }
 
 .btn-style:hover {
-	opacity: 0.6;
+	opacity: 0.76;
 }
