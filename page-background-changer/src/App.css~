@@ -18,7 +18,6 @@ body{
 }
 
 .btn-style { 
-	display: block;
 	font-size: 1em;
 	background-color: #2e2e2e;
 	text-align: center;
@@ -29,7 +28,11 @@ body{
 	transition: .26s;
 }
 
-@media screen and (min-width: 300px) and (max-width: 900px){
+@media screen and (max-width: 399.5px) {
+  .palette-style {width:30%}
+}
+
+@media screen and (min-width:400px) and (max-width: 900px){
 
   .palette-style {
   	width: 21%;
@@ -37,5 +40,5 @@ body{
 }
 
 .btn-style:hover {
-	opacity: 0.6;
+	opacity: 0.76;
 }

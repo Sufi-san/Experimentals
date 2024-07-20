@@ -28,7 +28,11 @@ body{
 	transition: .26s;
 }
 
-@media screen and (min-width: 300px) and (max-width: 900px){
+@media screen and (max-width: 429.5px) {
+  .palette-style {width:30%}
+}
+
+@media screen and (min-width:429.8px) and (max-width: 900px){
 
   .palette-style {
   	width: 21%;
